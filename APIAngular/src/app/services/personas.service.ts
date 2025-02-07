@@ -21,6 +21,8 @@ return this.http.get<Persona[]>(this.urlWebApi);
 }
 
 postPersona(persona:Persona):Observable<Persona>{
+
   return this.http.post<Persona>(this.urlWebApi,persona)
+  
 }
 }

@@ -1,1 +1,11 @@
-<p>add-persona works!</p>
+<h1>Crear Persona</h1>
+
+
+<form [formGroup]="personaForm">
+
+<span>Nombre</span>
+<input formControlName="nombre" type="text">
+<span *ngIf="formulario.controls"></span>
+
+
+</form>
